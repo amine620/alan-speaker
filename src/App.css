@@ -1,0 +1,43 @@
+#root , html , body{
+  height: 100vh;
+}
+
+body{
+  margin: 0;
+  background-color: whitesmoke;
+}
+*{
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.imgLogo{
+  height: 200px;
+  width:30%;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  position: relative;
+  left:500px
+
+}
+@media all and (max-width:1104px)
+  {
+    .imgLogo{
+    position: relative;
+    left: 400px;
+    margin-top: 20px;
+
+    }
+  }
+
+  @media all and (max-width:983px)
+  {
+    .imgLogo{
+    position: relative;
+    left: 320px;
+    margin-top: 20px;
+    }
+  }
